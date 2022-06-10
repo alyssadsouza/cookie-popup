@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.cookie-container {
+    background: linear-gradient(260deg, #472b14 0%, #845730 100%);
+    color: white;
+    width: 25rem;
+    height: auto;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.text {
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 75%;
+}
+
+.cookie-title {
+    font-weight: lighter;
+    margin: 0.5rem 0;
+}
+
+.cookie-subtitle {
+    font-size: 0.7rem;
+    margin: 0.5rem 0;
+}
+
+.cookie-button {
+    border-style: none;
+    background: linear-gradient(to right, #fff 0%, #d8b288 50%, #fff  100%);
+    background-size: 200% auto;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #7b5434;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cookie-button:hover {
+    background-position: right center;
+    color: #d18e41;
+}
+
+.cookie {
+    height: auto;
+    width: 25%;
+    margin: 1rem;
+    overflow: visible;
+}
